@@ -1,5 +1,7 @@
 # Notes on Tutorial
 
+## Tutorial 1
+
 The first tutorial is 1_hello_tensorflow.ipynb. It explains the basics of defining the tensors 
 (which is just a generalization of arrays, matrices, with a fancier name), and add/multiply/assign operations on them.
 
@@ -9,3 +11,7 @@ Some key points:
 
 1. Tensorflow works well with numpy package
 1. Tensorflow uses delayed computation (compute it only when you explicitly ask it to)
+
+## Tutorial 2
+
+To be continued.. (As a reminder to myself - Jupyter notebook is at localhost:8888)
