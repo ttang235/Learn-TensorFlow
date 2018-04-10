@@ -14,4 +14,8 @@ Some key points:
 
 ## Tutorial 2
 
+The second tutorial is 2_getting_started.ipynb. It demonstrates how to build a linear regression model using functions
+in tensorflow. The key part may be the GradientDescentOptimizer, which makes weight learning really easy.
+
+## Tutorial 3
 To be continued.. (As a reminder to myself - Jupyter notebook is at localhost:8888)
