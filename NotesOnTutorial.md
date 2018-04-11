@@ -18,4 +18,11 @@ The second tutorial is 2_getting_started.ipynb. It demonstrates how to build a l
 in tensorflow. The key part may be the GradientDescentOptimizer, which makes weight learning really easy.
 
 ## Tutorial 3
-To be continued.. (As a reminder to myself - Jupyter notebook is at localhost:8888)
+
+The third tutorial is 3_mnist_from_scratch.ipynb. It shows how to build a CNN for the MNIST data, including how to download the data, how to parse the data, and how to split the data into training/validation/test sets.
+
+To understand the structure of the CNN model, I find [this video](https://www.youtube.com/watch?v=FmpDIaiMIeA) very helpful. 
+
+There is also another tutorial about building CNN using layers module for MNIST data [here](https://www.tensorflow.org/tutorials/layers). Also take a look.
+
+To be continued at [13] .. (As a reminder to myself - Jupyter notebook is at localhost:8888)
