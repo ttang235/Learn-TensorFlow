@@ -25,4 +25,9 @@ To understand the structure of the CNN model, I find [this video](https://www.yo
 
 There is also another tutorial about building CNN using layers module for MNIST data [here](https://www.tensorflow.org/tutorials/layers). Also take a look.
 
-To be continued at [13] .. (As a reminder to myself - Jupyter notebook is at localhost:8888)
+Now I roughly understand how the model is built, but I cannot run it in Jupyter notebook, because the kernel always dies.
+I also cannot run it after converting it to python program because of the same issue. It seems to be caused by too much 
+memory usage after researching on the web.
+
+The good news is [this MNIST tutorial](https://www.tensorflow.org/tutorials/layers) works (I can run it).
+Will read it next time.
