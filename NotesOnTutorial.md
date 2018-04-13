@@ -30,4 +30,17 @@ I also cannot run it after converting it to python program because of the same i
 memory usage after researching on the web.
 
 The good news is [this MNIST tutorial](https://www.tensorflow.org/tutorials/layers) works (I can run it).
-Will read it next time.
+
+## The MNIST using layer module
+
+https://www.tensorflow.org/tutorials/layers
+
+This tutorial is much simpler than tutorial 3, because it uses a more high-level API.
+
+One confusion I had is how an input of [batch_size, 14, 14, 32] convolve with 64 [5,5] filters, and produces [batch_size, 7, 7, 64] after max pooling. 
+
+The answer is: the filter is actually not [5,5], but [5,5,32]. After convolution, we get [batch_size, 14, 14, 64]. See an animation [here](http://cs231n.github.io/convolutional-networks/), and also this [stack exchange answer](https://stats.stackexchange.com/questions/269893/2d-convolution-with-depth)
+
+I should write a small program to verify this.
+
+To be continued at [Convolutional Layer #2 and Pooling Layer #2](https://www.tensorflow.org/tutorials/layers)
