@@ -41,6 +41,12 @@ One confusion I had is how an input of [batch_size, 14, 14, 32] convolve with 64
 
 The answer is: the filter is actually not [5,5], but [5,5,32]. After convolution, we get [batch_size, 14, 14, 64]. See an animation [here](http://cs231n.github.io/convolutional-networks/), and also this [stack exchange answer](https://stats.stackexchange.com/questions/269893/2d-convolution-with-depth)
 
-I should write a small program to verify this.
+I should write a small program to verify this (tried, but didn't figure out how to evaluate the output tensor of tf.layers.conv2d).
 
-To be continued at [Convolutional Layer #2 and Pooling Layer #2](https://www.tensorflow.org/tutorials/layers)
+A [one-minute video](https://www.youtube.com/watch?v=tRsSi_sqXjI) that explains how softmax_cross_entropy is calculated. 
+
+Example: the label is [0, 0, 1], and the prediction is [p1, p2, p3] (Assuming that softmax is already applied, and thus 
+p1 + p2 + p3 = 1). The cross entropy would be -log(p3), which evaluates to the minimum when p3 is 1, which means the
+prediction is perfect. So you can see minimizing this cross entropy loss makes sense.
+
+To be continued at [Training and Evaluating the CNN MNIST Classifier](https://www.tensorflow.org/tutorials/layers)
