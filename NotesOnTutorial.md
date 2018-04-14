@@ -49,4 +49,4 @@ Example: the label is [0, 0, 1], and the prediction is [p1, p2, p3] (Assuming th
 p1 + p2 + p3 = 1). The cross entropy would be -log(p3), which evaluates to the minimum when p3 is 1, which means the
 prediction is perfect. So you can see minimizing this cross entropy loss makes sense.
 
-To be continued at [Training and Evaluating the CNN MNIST Classifier](https://www.tensorflow.org/tutorials/layers)
+Training/Evaluation setup is pretty straightforward and easy to follow.
