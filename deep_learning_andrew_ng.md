@@ -7,4 +7,6 @@
 4. Drivers behind the rise of deep learning
    1. deep learning improves with bigger data
 5. Binary classification in deep learning
-6. [continue here](https://www.youtube.com/watch?v=6tByJTacCOc&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=6)
+6. Logistic Regression
+7. Logistic Regression cost function
+8. [continue here](https://www.youtube.com/watch?v=8zUqnc4PqOY&index=8&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K)
