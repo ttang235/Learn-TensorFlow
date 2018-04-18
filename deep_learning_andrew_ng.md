@@ -9,4 +9,7 @@
 5. Binary classification in deep learning
 6. Logistic Regression
 7. Logistic Regression cost function
-8. [continue here](https://www.youtube.com/watch?v=8zUqnc4PqOY&index=8&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K)
+8. Gradient Descent
+9. Derivatives
+10. Derivatives Examples
+11. [continue here](https://www.youtube.com/watch?v=I_ixUbXoNYY&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=11)
