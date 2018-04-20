@@ -12,4 +12,11 @@
 8. Gradient Descent
 9. Derivatives
 10. Derivatives Examples
-11. [continue here](https://www.youtube.com/watch?v=I_ixUbXoNYY&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=11)
+11. Computation graph
+12. Derivatives with a computation graph
+13. Logistic Regression Derivatives
+14. Gradient Descent on m Training examples
+15. Vectorization
+    1. prefer vector operation (e.g. numpy.dot(a,b)) to for loops (the former could be 100 times faster)
+16. More Vectorization examples
+17. [continue here](https://www.youtube.com/watch?v=MDRnIjPiD_4&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=17)
