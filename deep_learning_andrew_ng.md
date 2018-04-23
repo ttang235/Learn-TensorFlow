@@ -28,4 +28,8 @@
     1. Use assert(a.shape == (5,1)) to check.
     1. Use a.reshape((5,1)) to make it explicit and the behavior more predictable.
 21. Jupyter-ipython
-22. [continue here](https://www.youtube.com/watch?v=QTeq8Ru51R8&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=22)
+22. Logistic regression cost function explanation
+23. neural network overview
+24. neural network representation
+25. computing a neural network's output
+26. [continue here](https://www.youtube.com/watch?v=4lRL7sFEalg&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=26)
