@@ -32,4 +32,6 @@
 23. neural network overview
 24. neural network representation
 25. computing a neural network's output
-26. [continue here](https://www.youtube.com/watch?v=4lRL7sFEalg&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=26)
+26. vectoring across multiple training examples
+27. vectorized implementation explanation
+28. [continue here](https://www.youtube.com/watch?v=8nBmMc__bM4&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=28)
