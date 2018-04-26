@@ -43,6 +43,6 @@
     - because if you use linear activation function in hidden layer, the combined effect is still a linear transformation,
     which may not be expressive enough (cannot model non-linear relationship between output y and input x)
 30. Derivatives of activation functions
-    - For both tanh and sigmoid, the derivatives can be expressed in terms of the function value, so they'd be
-    convenient to compute. For y = sigmoid(x), y' = y(1-y); for y = tanh(x), y' = 1-y^2;
+    - For both tanh and sigmoid, the derivatives can be expressed in terms of the function value, so it'd be
+    convenient to compute them. For y = sigmoid(x), y' = y(1-y); for y = tanh(x), y' = 1-y^2;
 31. [continue here](https://www.youtube.com/watch?v=6D0rQxgnrZM&index=31&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K)
