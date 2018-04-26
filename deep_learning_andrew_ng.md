@@ -34,4 +34,15 @@
 25. computing a neural network's output
 26. vectoring across multiple training examples
 27. vectorized implementation explanation
-28. [continue here](https://www.youtube.com/watch?v=8nBmMc__bM4&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K&index=28)
+28. Activation Functions
+    1. empirically, tanh tends to work better than sigmoid.
+    2. ReLU is widely used.
+    3. Leaky ReLU is also an option, though not very popular.
+    4. In practice, try each of them to see which works best, if possible.
+29. Why non-linear activation function?
+    - because if you use linear activation function in hidden layer, the combined effect is still a linear transformation,
+    which may not be expressive enough (cannot model non-linear relationship between output y and input x)
+30. Derivatives of activation functions
+    - For both tanh and sigmoid, the derivatives can be expressed in terms of the function value, so they'd be
+    convenient to compute. For y = sigmoid(x), y' = y(1-y); for y = tanh(x), y' = 1-y^2;
+31. [continue here](https://www.youtube.com/watch?v=6D0rQxgnrZM&index=31&list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K)
