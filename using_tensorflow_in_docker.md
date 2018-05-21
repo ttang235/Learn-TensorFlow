@@ -9,6 +9,10 @@ apt-get update # update software source list
 apt-get install -y wget # install wget (I need it for downloading), -y means 'yes', see https://askubuntu.com/questions/672892/what-does-y-mean-in-apt-get-y-install-command
 apt-get install vim
 apt-get install git-core
+
+# Machine learning libraries
+pip install liac-arff # Read arff file: https://github.com/renatopp/liac-arff
+
 ```
 
 To get a better experience using vim in docker, you may want a .vimrc file. If you run `echo $HOME`, you will get `/root`. So you can put your .vimrc there.
